@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingTop="10dp"
+    android:background="@color/Teal"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+  >
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/back"
+        android:layout_marginTop="15dp"
+        android:onClick="backtoPhotos"
+        android:id="@+id/imageView12" />
+
+    <TextView
+        android:layout_width="457dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="15dp"
+
+        android:text="For Grounds of"
+        android:id="@+id/textView26" />
+
+    <RadioButton
+        android:layout_width="232dp"
+        android:textSize="26dp"
+        android:layout_height="60dp"
+        android:text="Abuse"
+        android:textColor="@color/white"
+
+        android:id="@+id/radioButton6" />
+
+    <RadioButton
+        android:layout_width="237dp"
+        android:textSize="26dp"
+        android:textColor="@color/white"
+
+        android:layout_height="60dp"
+        android:text="Threaths"
+        android:id="@+id/radioButton7" />
+
+    <RadioButton
+        android:layout_width="264dp"
+
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:layout_height="60dp"
+        android:text="Malicious Content"
+        android:id="@+id/radioButton8" />
+
+    <TextView
+        android:layout_width="457dp"
+        android:layout_marginTop="30dp"
+
+        android:textStyle="bold"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="15dp"
+        android:text="Enter User name"
+        android:id="@+id/textView25" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:hint="please fill up"
+
+        android:textColorHint="@color/white"
+        android:layout_height="50dp"
+        android:id="@+id/editText21" />
+
+
+</LinearLayout>

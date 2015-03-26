@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightSteelBlue"
+    android:alpha="0.80">
+
+
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:id="@+id/datePicker"
+        android:background="@color/Teal"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/editText17"
+        android:hint="Event Name"
+        android:textColor="@color/Teal"
+        android:layout_gravity="center_horizontal" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="date"
+        android:ems="10"
+        android:hint="Event Date"
+        android:textColor="@color/Teal"
+        android:id="@+id/editText22"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="time"
+        android:ems="10"
+        android:hint="Event Time"
+        android:textColor="@color/Teal"
+        android:id="@+id/editText23"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/editText20"
+        android:textColor="@color/Teal"
+        android:hint="Event Host" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/Teal"
+        android:id="@+id/editText18"
+        android:hint="Event Location" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Event Description"
+        android:textColor="@color/Teal"
+        android:id="@+id/editText19" />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Create Event"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buttonshape3"
+        android:onClick="CreateEvent"
+        android:layout_gravity="center_horizontal" />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Teal">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton7"
+            android:src="@drawable/camera"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:onClick="open"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

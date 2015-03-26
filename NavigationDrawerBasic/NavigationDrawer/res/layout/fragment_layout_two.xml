@@ -1,0 +1,197 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur4"
+    tools:context="com.example.homepage.MainActivity">
+
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="Claudia Song"
+        android:textColor="#EEEEEE"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/j1"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="#EEEEEE"
+        android:ems="12"
+        android:text="&quot;Life is Good&quot;"
+        android:layout_above="@+id/editText6"
+        android:layout_centerHorizontal="true">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="Boracay, Philippines"
+        android:layout_marginBottom="30dp"
+        android:textColor="#EEEEEE"
+        android:layout_below="@+id/editText1"
+        android:layout_alignRight="@+id/editText5"
+        android:layout_alignEnd="@+id/editText5" />
+
+    <TextView
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="Contact No. 09331744810"
+        android:textColor="#EEEEEE"
+        android:layout_below="@+id/editText6"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6" />
+
+    <TextView
+        android:id="@+id/editText8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="Email:budsaguirre@gmail.com"
+        android:textColor="#EEEEEE"
+        android:layout_below="@+id/editText7"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true" />
+
+
+
+<TextView
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:ems="10"
+        android:textSize="20dp"
+        android:text="I'm a freelance photographer.I love abstract photography and I love making new friends. Follow me...&lt;3"
+        android:textColor="#EEEEEE"
+    android:layout_below="@+id/editText8"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="10dp">
+
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:text="Geneva, Switzerland; Kyoto, Japan, Santorini, Greece; Istanbul, Turkey; Belize, Caribbean"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/textView14"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_marginBottom="10dp"
+        android:layout_alignStart="@+id/textView14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText11"
+        android:text="Nan Madol, Micronesia; Venice, Italy; Brussels, Belgium; Holy Land, Israel; Cairo, Egypt"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/textView15"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="About Me:"
+        android:id="@+id/textView13"
+        android:textColor="@color/Aquamarine"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_below="@+id/editText8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Places I've Been To:"
+        android:textColor="@color/Aquamarine"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Dream Destinations:"
+        android:textColor="@color/Aquamarine"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/editText4"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:id="@+id/button3"
+        android:background="@drawable/buttonshape2"
+        android:layout_below="@+id/editText11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:onClick="editProfile"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Teal">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageButton7"
+            android:src="@drawable/camera"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:onClick="open"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

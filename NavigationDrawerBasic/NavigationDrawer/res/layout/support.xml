@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingLeft="30dp"
+    android:background="@color/Teal"
+    android:paddingTop="10dp"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/back"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="backtoPhotos"
+        android:id="@+id/imageView13" />
+
+    <TextView
+        android:layout_width="457dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Support"
+        android:id="@+id/textView20" />
+
+    <TextView
+        android:layout_width="540dp"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="583dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="When you need help using WanderingMe, we want it to be as easy as a click for you to get it. Our Help Center offers a central resource for you to find answers to common questions and learn more about using WanderingMe.
+
+Recently, we introduced a more streamlined design and a series of other changes for the Help Center to make it faster for you to find the answers you need. The improvements include:
+A new search interface that displays related help pages and matches help content for other languages if there are no results in your language, in addition to the regular FAQ results and user-to-user help topics.
+
+Filters on the left-hand side to navigate the available content types: FAQs, user-to-user support, and the new privacy and safety pages."
+
+
+
+ />
+</LinearLayout>

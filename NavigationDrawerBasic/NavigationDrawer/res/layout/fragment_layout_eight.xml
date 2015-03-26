@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/black">
+
+    <ImageButton
+        android:layout_width="450dp"
+        android:layout_height="350dp"
+        android:background="@drawable/cute_camera"
+        android:onClick="open"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Take A Photo"
+        android:onClick="open"
+        android:textColor="@color/CornflowerBlue"
+        android:textSize="30sp"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp" />
+</RelativeLayout>

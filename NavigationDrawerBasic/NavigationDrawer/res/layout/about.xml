@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingTop="10dp"
+    android:background="@color/Teal"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="backtoPhotos"
+        android:src="@drawable/back"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageView11" />
+
+    <TextView
+        android:layout_width="457dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="15dp"
+        android:text="WanderingMe"
+        android:id="@+id/textView20" />
+
+    <TextView
+        android:layout_width="468dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/splash_body"
+        android:id="@+id/textView21"
+        android:layout_weight="0.20" />
+
+    <TextView
+        android:layout_width="457dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="15dp"
+        android:text="Contact Us"
+        android:id="@+id/textView22" />
+    <TextView
+        android:layout_width="468dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="+32 0945672312"
+        android:id="@+id/textView23"
+        android:layout_weight="0.07" />
+    <TextView
+        android:layout_width="468dp"
+
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="email:wanderingme@gmail.com"
+        android:id="@+id/textView24"
+        android:layout_weight="0.06" />
+
+
+
+</LinearLayout>

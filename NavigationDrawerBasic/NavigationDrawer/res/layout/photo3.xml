@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur4" >
+
+
+
+
+    <ImageView
+        android:id="@+id/imageV6"
+        android:src="@drawable/a1"
+        android:layout_height="350dp"
+        android:layout_width="350dp"
+        android:layout_alignBottom="@+id/imageView7"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/thumbsup"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imageV6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView9"
+        android:src="@drawable/thumbsdown"
+        android:layout_alignBottom="@+id/imageV6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageV6"
+        android:layout_toEndOf="@+id/imageV6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sagada, Mountain Province"
+        android:textColor="@color/FloralWhite"
+        android:id="@+id/textView18"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="A destination of foreign adventurers, Sagada features caves that can be explored (even by non-experts) with the aid of local guides, an interesting hike along an underground river, a waterfall and pool to cool off in after a day of exploring, and a quiet serenity only found off the beaten path."
+        android:id="@+id/textView19"
+        android:textColor="@color/FloralWhite"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView10"
+        android:src="@drawable/comments"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/editText10"
+        android:textColor="@color/black"
+        android:layout_alignTop="@+id/imageView10"
+        android:layout_toLeftOf="@+id/imageView9"
+        android:layout_toRightOf="@+id/imageView7"
+        android:layout_toEndOf="@+id/imageView7" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:id="@+id/imageButton6"
+        android:src="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="backtoPhotos"
+        android:layout_above="@+id/imageV6"
+        android:layout_alignRight="@+id/imageView10"
+        android:layout_alignEnd="@+id/imageView10" />
+
+</RelativeLayout>
